@@ -964,7 +964,7 @@ figure {
     margin: 0 auto;
     margin-top: 4em;
 }
-
+ 
 .member .desc h3 {
     margin-bottom: 10px;
 }
@@ -1046,7 +1046,7 @@ figure {
 }
 
 #fh5co-timeline .timeline .timeline-heading h3 {
-    color: #fff;
+    color: #000000;
 }
 
 #fh5co-timeline .timeline>li {
@@ -1180,7 +1180,7 @@ figure {
 #fh5co-timeline .timeline-body>p,
 #fh5co-timeline .timeline-body>ul {
     margin-bottom: 0;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 #fh5co-timeline .timeline-body>p+p {
