@@ -2103,3 +2103,57 @@ textarea {
 .bootstrap-datetimepicker-widget {
     color: #000 !important;
 }
+/* Default styles for desktops */
+body {
+    font-size: 16px; /* Maintain original desktop font size */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 24px;
+}
+p {
+    font-size: 14px;
+}
+
+/* Mobile-specific styles for larger fonts */
+@media (max-width: 768px) {
+    body {
+        font-size: 20px; /* Larger font size for mobile */
+    }
+    h1 {
+        font-size: 32px; /* Increase header sizes for better visibility */
+    }
+    h2 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 18px; /* Larger paragraph text for mobile */
+    }
+}
+
+/* Ensure images remain responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure proper scaling with the viewport meta tag in HTML */
+@media (max-width: 768px) {
+    body {
+        font-size: 20px !important; /* Enforce larger font size on mobile */
+    }
+    h1 {
+        font-size: 34px !important; /* Ensure visibility for titles */
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+    p {
+        font-size: 18px !important; /* Improve readability for paragraphs */
+    }
+}
+
+/* Make images responsive */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
