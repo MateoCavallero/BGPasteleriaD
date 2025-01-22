@@ -386,7 +386,7 @@ figure {
 .fh5co-cover .display-tc h1,
 .fh5co-cover .display-tc h2 {
     margin: 0;
-    padding-bottom: 20%;
+    padding-bottom: 0%;
     color: white;
 }
 
@@ -416,7 +416,7 @@ figure {
 .fh5co-cover .display-tc h2 {
     font-size: 30px;
     line-height: 1.5;
-    margin-bottom: 0px;
+    margin-bottom: 20%;
     font-style: italic;
 }
 
@@ -1179,7 +1179,7 @@ figure {
 #fh5co-timeline .timeline-body>p,
 #fh5co-timeline .timeline-body>ul {
     margin-bottom: 0;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 #fh5co-timeline .timeline-body>p+p {
