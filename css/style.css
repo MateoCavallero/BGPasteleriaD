@@ -536,7 +536,7 @@ figure {
 }
 
 .section-heading h2 {
-    font-style: 40px;
+    font-size: 35px;
     color: #f79489;
     font-family: "Satisfy", cursive;
 }
@@ -569,6 +569,7 @@ figure {
 #fh5co-gallery .fh5co-heading h2,
 #fh5co-reservation-form .fh5co-heading h2 {
     color: #f79489;
+    font-size: 35px;
     font-family: "Satisfy", cursive;
 }
 
